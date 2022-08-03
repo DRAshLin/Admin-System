@@ -1,0 +1,107 @@
+var express = require('express');
+var router = express.Router();
+
+
+/* GET goods listing. */
+router.get('/goods', function(req, res, next) {
+  res.send([
+    {
+        userId:1,
+        id:1,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:2,
+        id:2,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:3,
+        id:3,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:4,
+        id:4,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:5,
+        id:5,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:6,
+        id:6,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:7,
+        id:7,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:8,
+        id:8,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:9,
+        id:9,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:10,
+        id:10,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:11,
+        id:11,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:12,
+        id:12,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:13,
+        id:13,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:14,
+        id:14,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:15,
+        id:15,
+        title:'旺仔牛奶',
+        introduce:'再看就把你喝掉~',
+    },
+    {
+        userId:16,
+        id:16,
+        title:'test',
+        introduce:'test~',
+    },
+  ]);
+});
+
+module.exports = router;
